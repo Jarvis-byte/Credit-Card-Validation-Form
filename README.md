@@ -10,3 +10,5 @@
 When the user-submitted valid credit card data, the app should pop up an alert dialogue notifying them that the payment was successful.
 
 * Build Link:- https://github.com/Jarvis-byte/Credit-Card-Validation-Form/blob/master/Credit%20Card%20Validation.apk
+
+* You can Also Download The Apk From the Release Section.
