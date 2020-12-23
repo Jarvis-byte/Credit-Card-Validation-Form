@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
                     inputMethodManager1 = (InputMethodManager) MainActivity.this.getSystemService(Context.INPUT_METHOD_SERVICE);
                     inputMethodManager1.showSoftInput(inputtxtExpirationDate, inputMethodManager1.SHOW_IMPLICIT);
 
-                } else if (inputMonth < todaysMonth && inputYear > todaysYear) {
+                } else if (inputMonth < todaysMonth && inputYear == todaysYear) {
                     inputtxtExpirationDate.setError("This Card Has Expired");
                     inputtxtExpirationDate.requestFocus();
                     inputMethodManager1 = (InputMethodManager) MainActivity.this.getSystemService(Context.INPUT_METHOD_SERVICE);
